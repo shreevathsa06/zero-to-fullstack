@@ -1,0 +1,44 @@
+* { /*  NOT USED MUCH */
+    border: 2px solid black; /* But this is not inheritance, this is selecting all the elements, now the border applies to every element in the page*/
+}
+
+button, input, textarea, select {
+    font: inherit; 
+    /* Form elements do not typicall inherit the font settings, we have to specify like this*/
+}
+
+body {
+   font-size: 22px;
+   border: 2px solid black; /* applies to the body element only but not for all the elements inside the body*/
+}
+
+main {
+    font-family: monospace;
+}
+
+h1, h2 {
+    color: darkslateblue;
+}
+
+
+.gray {
+    color: gray;
+}
+
+p {
+    color: purple;
+}
+
+p {
+    color: red;
+}
+
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+#second {
+    color: blue;
+}
