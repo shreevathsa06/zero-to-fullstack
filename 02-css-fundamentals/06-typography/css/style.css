@@ -1,0 +1,24 @@
+/* 
+
+Typography is the way that text is arranged and presented.
+
+*/
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+}
+
+/* input, button {
+    font-size: inherit;
+} */
+
+h1 {
+    font-family: monospace;
+    color: peru;
+    letter-spacing: 0.05em;
+}
+p {
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+}
